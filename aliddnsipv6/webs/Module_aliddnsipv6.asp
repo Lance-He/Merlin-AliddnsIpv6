@@ -41,7 +41,7 @@
 										<div style="float:right; width:15px; height:25px;margin-top:10px"><img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img></div>
 										<div style="margin-left:5px;margin-top:10px;margin-bottom:10px"><img src="/images/New_ui/export/line_export.png"></div>
 										<div class="SimpleNote" id="head_illustrate"><i></i><em>Aliddnsipv6</em>是一款基于阿里云解析的私人ddns解决方案。<a href='http://koolshare.cn/thread-64703-1-1.html' target='_blank'><i>&nbsp;&nbsp;<u>官方原版点击查看插件详情</u></i></a></div>  
-                						<div class="SimpleNote" id="head_illustrate">此插件为将路由器下的一台设备ipv6地址解析到阿里云,只需将设备的ipv6地址后64位按照格式填入下方即可。<a href='https://github.com/Lance-He/Merlin-AliddnsIpv6' target='_blank'><i>&nbsp;&nbsp;<u>IPV6修改版点击查看详情</u></i></a></div>
+                						<div >&nbsp;&nbsp;&nbsp;此插件为将路由器下的一台设备ipv6地址解析到阿里云,只需将设备的ipv6地址后64位按照格式填入下方即可。<a href='https://github.com/Lance-He/Merlin-AliddnsIpv6' target='_blank'><i>&nbsp;&nbsp;<u>IPV6修改版点击查看详情</u></i></a></div>
 										<table style="margin:20px 0px 0px 0px;" width="100%" border="1" align="center" cellpadding="4" cellspacing="0" bordercolor="#6b8fa3" class="FormTable">
 											<thead>
 											<tr>
@@ -90,8 +90,8 @@
                 						    <tr id="name_tr">
                 						        <th>域名</th>
                 						        <td>
-                						            <input type="text" style="width: 4em" id="aliddnsipv6_name" placeholder="子域名" value="<% dbus_get_def("aliddnsipv6_name", "home"); %>" class="input_ss_table"
-                						            >.<input type="text"  id="aliddnsipv6_domain" placeholder="主域名" value="<% dbus_get_def("aliddnsipv6_domain", "example.com"); %>" class="input_ss_table">
+                						            <input type="text" style="width: 4em" id="aliddnsipv6_name" placeholder="子域名" value="<% dbus_get_def("aliddnsipv6_name", "www"); %>" class="input_ss_table"
+                						            >.<input type="text"  id="aliddnsipv6_domain" placeholder="主域名" value="<% dbus_get_def("aliddnsipv6_domain", "baidu.com"); %>" class="input_ss_table">
                 						        </td>
                 						    </tr>
                 						    <tr id="dns_tr">
@@ -115,6 +115,8 @@
 											论坛技术支持： <a href="http://www.koolshare.cn" target="_blank"> <i><u>www.koolshare.cn</u></i> </a> <br/>
 											Github项目： <a href="https://github.com/koolshare/koolshare.github.io/tree/acelan_softcenter_ui" target="_blank"> <i><u>github.com/koolshare</u></i> </a> <br/>
 											Shell by： <i>kyrios</i> , Web by： <i>kyrios</i>
+											Version：<i>0.0.2</i>, Modified author：<i>Lance</i>
+											Modified date：<i>2019/1/11</i>
 										</div>
 									</td>
 								</tr>
