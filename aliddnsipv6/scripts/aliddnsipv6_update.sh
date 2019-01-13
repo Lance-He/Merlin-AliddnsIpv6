@@ -15,12 +15,10 @@ die () {
     dbus ram aliddnsipv6_last_act="$now: failed($1)"
 }
 
-#[ "$aliddnsipv6_curl" = "" ] && aliddnsipv6_curl="curl -s --interface ppp0 whatismyip.akamai.com"
-[ "$aliddnsipv6_curl" = "" ] && aliddnsipv6_curl=""
+[ "$aliddnsipv6_curl" = "" ] && aliddnsipv6_curl=":0000:0000:0000:0000"
 [ "$aliddnsipv6_dns" = "" ] && aliddnsipv6_dns="223.5.5.5"
 [ "$aliddnsipv6_ttl" = "" ] && aliddnsipv6_ttl="600"
 
-#Host_ipv6=:211:32ff:fe2c:a785
 Host_ipv6=${aliddnsipv6_curl}
 
 Router_arIpAddress6=`ip addr show br0 | grep "inet6.*global" | awk '{print $2}' | awk -F"/" '{print $1}'|cut -d ':' -f 1,2,3,4`

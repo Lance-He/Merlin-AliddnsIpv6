@@ -5,7 +5,7 @@ if [ "`dbus get aliddnsipv6_enable`" = "1" ]; then
     sed -i '/aliddnsipv6_update.sh/d' /jffs/scripts/wan-start
     sleep 2
     echo sh /koolshare/scripts/aliddnsipv6_update.sh>>/jffs/scripts/wan-start
-    echo cru a aliddnsipv6 "*/`dbus get aliddnsipv6_interval` * * * * sh /koolshare/scripts/aliddnsipv6_update.sh">>/jffs/scripts/wan-start
+    echo cru a aliddnsipv6 \"*/`dbus get aliddnsipv6_interval` * * * * sh /koolshare/scripts/aliddnsipv6_update.sh\">>/jffs/scripts/wan-start
     #dbus set __event__onwanstart_aliddns="sh /koolshare/scripts/aliddnsipv6_update.sh"
     #dbus delay aliddnsipv6_timer `dbus get aliddnsipv6_interval` /koolshare/scripts/aliddnsipv6_update.sh
     # run once after submit

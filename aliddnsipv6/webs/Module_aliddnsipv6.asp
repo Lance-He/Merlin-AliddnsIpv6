@@ -99,7 +99,7 @@
                 						        <td><input id="aliddnsipv6_dns" class="input_ss_table" value="<% dbus_get_def("aliddnsipv6_dns", "223.5.5.5"); %>"></td>
                 						    </tr>
                 						    <tr id="curl_tr">
-                						        <th title="填写需要DDNS的主机ipv6地址后64位">IPv6后缀(?)</th>
+                						        <th title="填写需要DDNS的主机ipv6地址后64位">主机IPv6后缀(?)</th>
                 						        <td><textarea id="aliddnsipv6_curl" class="input_ss_table" style="width: 40%; height: 1.2em"><% dbus_get_def("aliddnsipv6_curl", ":0000:0000:0000:0000"); %></textarea></td>
                 						    </tr>
                 						    <tr id="ttl_tr">
@@ -115,8 +115,9 @@
 											论坛技术支持： <a href="http://www.koolshare.cn" target="_blank"> <i><u>www.koolshare.cn</u></i> </a> <br/>
 											Github项目： <a href="https://github.com/koolshare/koolshare.github.io/tree/acelan_softcenter_ui" target="_blank"> <i><u>github.com/koolshare</u></i> </a> <br/>
 											Shell by： <i>kyrios</i> , Web by： <i>kyrios</i>
-											Version：<i>0.0.2</i>, Modified author：<i>Lance</i>
-											Modified date：<i>2019/1/11</i>
+											Modified author：<i>Lance</i><br/>
+											Modified date：<i>2019/1/13</i>
+											
 										</div>
 									</td>
 								</tr>
