@@ -7,7 +7,7 @@
 <meta HTTP-EQUIV="Expires" CONTENT="-1"/>
 <link rel="shortcut icon" href="images/favicon.png"/>
 <link rel="icon" href="images/favicon.png"/>
-<title>aliddnsipv6</title>
+<title>AliddnsIPV6</title>
 <link rel="stylesheet" type="text/css" href="index_style.css"/>
 <link rel="stylesheet" type="text/css" href="form_style.css"/>
 <link rel="stylesheet" type="text/css" href="usp_style.css"/>
@@ -37,20 +37,20 @@
 								<tr>
 									<td bgcolor="#4D595D" colspan="3" valign="top">
 										<div>&nbsp;</div>
-                						<div style="float:left;" class="formfonttitle" style="padding-top: 12px">Aliddnsipv6 - 设置</div>
+                						<div style="float:left;" class="formfonttitle" style="padding-top: 12px">AliddnsIPV6 - 设置</div>
 										<div style="float:right; width:15px; height:25px;margin-top:10px"><img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img></div>
 										<div style="margin-left:5px;margin-top:10px;margin-bottom:10px"><img src="/images/New_ui/export/line_export.png"></div>
-										<div class="SimpleNote" id="head_illustrate"><i></i><em>Aliddnsipv6</em>是一款基于阿里云解析的私人ddns解决方案。<a href='http://koolshare.cn/thread-64703-1-1.html' target='_blank'><i>&nbsp;&nbsp;<u>官方原版点击查看插件详情</u></i></a></div>  
+										<div class="SimpleNote" id="head_illustrate"><i></i><em>AliddnsIPV6</em>是一款基于阿里云解析的私人ddns解决方案。<a href='http://koolshare.cn/thread-64703-1-1.html' target='_blank'><i>&nbsp;&nbsp;<u>官方原版点击查看插件详情</u></i></a></div>  
                 						<div >&nbsp;&nbsp;&nbsp;此插件为将路由器下的一台设备ipv6地址解析到阿里云,只需将设备的ipv6地址后64位按照格式填入下方即可。<a href='https://github.com/Lance-He/Merlin-AliddnsIpv6' target='_blank'><i>&nbsp;&nbsp;<u>IPV6修改版点击查看详情</u></i></a></div>
 										<table style="margin:20px 0px 0px 0px;" width="100%" border="1" align="center" cellpadding="4" cellspacing="0" bordercolor="#6b8fa3" class="FormTable">
 											<thead>
 											<tr>
-												<td colspan="2">Aliddnsipv6 - 设置面板</td>
+												<td colspan="2">AliddnsIPV6 - 设置面板</td>
 											</tr>
 											</thead>
 											<tr id="switch_tr">
 												<th>
-													<label>开启Aliddnsipv6</label>
+													<label>开启AliddnsIPV6</label>
 												</th>
 												<td colspan="2">
 													<div class="switch_field" style="display:table-cell">
@@ -172,10 +172,10 @@ var enable_ss = "<% nvram_get("enable_ss"); %>";
 var enable_soft = "<% nvram_get("enable_soft"); %>";
 function menu_hook(title, tab) {
 	if(enable_ss == "1" && enable_soft == "1"){
-		tabtitle[17] = new Array("", "Aliddnsipv6");
+		tabtitle[17] = new Array("", "AliddnsIPV6");
 		tablink[17] = new Array("", "Module_aliddnsipv6.asp");
 	}else{
-		tabtitle[16] = new Array("", "Aliddnsipv6");
+		tabtitle[16] = new Array("", "AliddnsIPV6");
 		tablink[16] = new Array("", "Module_aliddnsipv6.asp");
 	}
 }
